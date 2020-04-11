@@ -1,0 +1,5 @@
+Web Notification
+<div class="alert-container" data-sly-use.webNotification="${'subbu.blogspot.wcmaem.core.models.WebNotification'}">
+	<h1 class="alert-title">${webNotification.notificationTitle} </h1>
+	<div class='alert-content'>${webNotification.notificationText @context='html'}</div>
+</div>
