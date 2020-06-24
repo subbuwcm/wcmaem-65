@@ -1,5 +1,10 @@
 # Created by https://www.gitignore.io/api/eclipse,java,maven
 
+#ui.frontend generated files
+ui.frontend/dist
+ui.frontend/node
+ui.frontend/node_modules
+
 ### Eclipse ###
 *.pydevproject
 .metadata
